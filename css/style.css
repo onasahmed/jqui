@@ -1,0 +1,60 @@
+#move { 
+	width: 50px; 
+	height: 50px; 
+	padding: 0.5em; 
+}
+.h_100{
+	height: 100px;
+}
+.bgy{
+	background-color: #2196f3;
+}
+#draggable { 
+	width: 100px; 
+	height: 100px; 
+	padding: 0.5em; 
+	float: left; 
+	margin: 10px 10px 10px 0; 
+}
+#droppable { 
+	width: 150px;
+ 	height: 150px;
+ 	padding: 0.5em;
+ 	float: left;
+ 	margin: 10px;
+ }
+ #resizable { 
+ 	width: 150px;
+  	height: 150px;
+  	padding: 0.5em;
+  }
+.ui-resizable-helper {
+	 border: 2px dotted black;
+}
+#selectable, #sortable{
+	list-style: none;
+}
+#selectable .ui-selecting {
+	 background: #FECA40;
+
+}
+#selectable .ui-selected { 
+	background: #2196f3;
+ 	color: white; 
+ }
+ #sortable li span { position: absolute;}
+ .ui-state-highlight { height: 1.5em; line-height: 1.2em; }
+ .ui-progressbar {
+    position: relative;
+  }
+  .progress-label {
+    position: absolute;
+    left: 50%;
+    top: 4px;
+    font-weight: bold;
+    text-shadow: 1px 1px 0 #fff;
+  }
+  label {
+    display: inline-block;
+    width: 5em;
+  }
